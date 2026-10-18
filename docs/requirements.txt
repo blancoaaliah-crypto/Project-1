@@ -1,0 +1,4 @@
+# FIN 439 Project 1 — Ulta Beauty
+# Python 3.9 or newer recommended
+# No third-party Python packages required.
+# This project uses only Python standard-library modules.
