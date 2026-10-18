@@ -1,0 +1,14 @@
+{
+  "synthetic_ev_equity_bridge": "PASS",
+  "historical_income_statement": "PASS",
+  "historical_balance_sheet": "PASS",
+  "five_year_balance_sheet_and_cash": "PASS",
+  "dcf_wacc_and_growth_monotonicity": "PASS",
+  "sales_and_sga_direction": "PASS",
+  "cash_tamper_detection": "PASS",
+  "training_case_reconciliation": "PENDING",
+  "independent_definition_check": "PENDING",
+  "locked_changed_input_prediction": "PENDING",
+  "peer_policy_consistency": "PENDING",
+  "fresh_environment_cold_run": "PENDING"
+}

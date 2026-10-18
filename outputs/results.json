@@ -1,0 +1,233 @@
+{
+  "company": "Ulta Beauty (ULTA)",
+  "historical_fiscal_year_end": "2026-01-31",
+  "source": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926035243/ulta-20260131x10k.htm",
+  "units": "USD millions except per share",
+  "assumptions": {
+    "sales_growth": 0.05,
+    "gross_margin": 0.3909702553575377,
+    "sga_pct_gp": 0.6803423329860497,
+    "preopening_pct_sales": 0.0012766263045860425,
+    "inventory_days": 105.4787981497685,
+    "da_pct_open_ppe": 0.20973430716384647,
+    "tax_rate": 0.24416652244474127,
+    "capex": 435.0,
+    "borrowing_rate": 0.055,
+    "minimum_cash": 100.0,
+    "revolver_limit": 1000.0,
+    "wacc": 0.091,
+    "terminal_growth": 0.025,
+    "shares": 44.991,
+    "valuation_cash": 424.243,
+    "valuation_debt": 62.287
+  },
+  "historical": {
+    "revenue": 12392.82,
+    "cogs": 7547.596,
+    "gross_profit": 4845.224,
+    "sga": 3296.411,
+    "preopening": 15.821,
+    "operating_income": 1532.992,
+    "net_income": 1153.479,
+    "da": 300.772,
+    "capex": 434.829,
+    "income_taxes": 373.869,
+    "pretax": 1531.205,
+    "cash": 424.243,
+    "inventory": 2181.127,
+    "ppe": 1434.062,
+    "lease_assets": 1813.074,
+    "total_assets": 6999.294,
+    "debt": 62.287,
+    "lease_liabilities": 2119.774,
+    "total_liabilities": 4195.843,
+    "equity": 2803.451,
+    "shares_diluted": 44.991,
+    "other_assets": 1146.787999999999,
+    "other_liabilities": 2013.7819999999997
+  },
+  "dcf": {
+    "pv_explicit": 4351.145258934798,
+    "terminal_value": 20094.651018516066,
+    "pv_terminal": 13000.400009019992,
+    "enterprise_value": 17351.54526795479,
+    "valuation_cash": 424.243,
+    "valuation_debt": 62.287,
+    "equity_value": 17713.501267954787,
+    "shares": 44.991,
+    "value_per_share": 393.71210393089257,
+    "terminal_share": 0.7492358639106002,
+    "fcff": [
+      973.336658145611,
+      1056.8671076348805,
+      1137.2619831295633,
+      1215.8981034167834,
+      1293.8994802166444
+    ]
+  },
+  "cases": {
+    "Downside | margin pressure": {
+      "assumptions": {
+        "sales_growth": 0.02,
+        "gross_margin": 0.3789702553575377,
+        "sga_pct_gp": 0.6953423329860497,
+        "preopening_pct_sales": 0.0012766263045860425,
+        "inventory_days": 113.4787981497685,
+        "da_pct_open_ppe": 0.20973430716384647,
+        "tax_rate": 0.24416652244474127,
+        "capex": 435.0,
+        "borrowing_rate": 0.055,
+        "minimum_cash": 100.0,
+        "revolver_limit": 1000.0,
+        "wacc": 0.101,
+        "terminal_growth": 0.025,
+        "shares": 44.991,
+        "valuation_cash": 424.243,
+        "valuation_debt": 62.287
+      },
+      "value_per_share": 286.3852081553264,
+      "enterprise_value": 12522.80090011629,
+      "terminal_share": 0.716730078830191,
+      "year_2030_fcff": 1076.6720233274546
+    },
+    "Base | historic ratios": {
+      "assumptions": {
+        "sales_growth": 0.05,
+        "gross_margin": 0.3909702553575377,
+        "sga_pct_gp": 0.6803423329860497,
+        "preopening_pct_sales": 0.0012766263045860425,
+        "inventory_days": 105.4787981497685,
+        "da_pct_open_ppe": 0.20973430716384647,
+        "tax_rate": 0.24416652244474127,
+        "capex": 435.0,
+        "borrowing_rate": 0.055,
+        "minimum_cash": 100.0,
+        "revolver_limit": 1000.0,
+        "wacc": 0.091,
+        "terminal_growth": 0.025,
+        "shares": 44.991,
+        "valuation_cash": 424.243,
+        "valuation_debt": 62.287
+      },
+      "value_per_share": 393.71210393089257,
+      "enterprise_value": 17351.54526795479,
+      "terminal_share": 0.7492358639106002,
+      "year_2030_fcff": 1293.8994802166444
+    },
+    "Upside | better execution": {
+      "assumptions": {
+        "sales_growth": 0.06,
+        "gross_margin": 0.3959702553575377,
+        "sga_pct_gp": 0.6703423329860497,
+        "preopening_pct_sales": 0.0012766263045860425,
+        "inventory_days": 101.4787981497685,
+        "da_pct_open_ppe": 0.20973430716384647,
+        "tax_rate": 0.24416652244474127,
+        "capex": 435.0,
+        "borrowing_rate": 0.055,
+        "minimum_cash": 100.0,
+        "revolver_limit": 1000.0,
+        "wacc": 0.086,
+        "terminal_growth": 0.025,
+        "shares": 44.991,
+        "valuation_cash": 424.243,
+        "valuation_debt": 62.287
+      },
+      "value_per_share": 463.7447309819412,
+      "enterprise_value": 20502.38319160852,
+      "terminal_share": 0.7651349743900346,
+      "year_2030_fcff": 1410.2545065324407
+    }
+  },
+  "grid": [
+    {
+      "wacc": 0.081,
+      "terminal_growth": 0.02,
+      "value_per_share": 433.21861535716283
+    },
+    {
+      "wacc": 0.081,
+      "terminal_growth": 0.025,
+      "value_per_share": 464.0451182255188
+    },
+    {
+      "wacc": 0.081,
+      "terminal_growth": 0.03,
+      "value_per_share": 500.91603342100353
+    },
+    {
+      "wacc": 0.081,
+      "terminal_growth": 0.04,
+      "value_per_share": 601.6365822476936
+    },
+    {
+      "wacc": 0.091,
+      "terminal_growth": 0.02,
+      "value_per_share": 372.0528441659035
+    },
+    {
+      "wacc": 0.091,
+      "terminal_growth": 0.025,
+      "value_per_share": 393.71210393089257
+    },
+    {
+      "wacc": 0.091,
+      "terminal_growth": 0.03,
+      "value_per_share": 418.9220620180111
+    },
+    {
+      "wacc": 0.091,
+      "terminal_growth": 0.04,
+      "value_per_share": 484.17136530231767
+    },
+    {
+      "wacc": 0.101,
+      "terminal_growth": 0.02,
+      "value_per_share": 326.0287124034399
+    },
+    {
+      "wacc": 0.101,
+      "terminal_growth": 0.025,
+      "value_per_share": 341.92504751184543
+    },
+    {
+      "wacc": 0.101,
+      "terminal_growth": 0.03,
+      "value_per_share": 360.06030305805467
+    },
+    {
+      "wacc": 0.101,
+      "terminal_growth": 0.04,
+      "value_per_share": 405.2497922879529
+    }
+  ],
+  "comps": {
+    "status": "PENDING",
+    "reason": "peer_inputs.csv unavailable"
+  },
+  "validation": {
+    "synthetic_ev_equity_bridge": "PASS",
+    "historical_income_statement": "PASS",
+    "historical_balance_sheet": "PASS",
+    "five_year_balance_sheet_and_cash": "PASS",
+    "dcf_wacc_and_growth_monotonicity": "PASS",
+    "sales_and_sga_direction": "PASS",
+    "cash_tamper_detection": "PASS",
+    "training_case_reconciliation": "PENDING",
+    "independent_definition_check": "PENDING",
+    "locked_changed_input_prediction": "PENDING",
+    "peer_policy_consistency": "PENDING",
+    "fresh_environment_cold_run": "PENDING"
+  },
+  "market_comparison": {
+    "date": "2026-10-16",
+    "close": 592.94,
+    "gap_from_base_pct": -0.3360000945611824,
+    "warning": "FY2025 accounting data compared with an October 2026 price"
+  },
+  "reverse_dcf": {
+    "market_price": 592.94,
+    "implied_fcff_growth": 0.2075465663354198,
+    "method": "Constant annual FCFF growth, not revenue growth"
+  }
+}
