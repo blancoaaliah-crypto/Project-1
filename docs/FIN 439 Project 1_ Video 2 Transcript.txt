@@ -1,0 +1,27 @@
+FIN 439 Project 1- Video 2: Codebase Walkthrough
+October 18, 2026, 11:43PM
+4m 22s
+
+Aaliah J Blanco started transcription
+
+Aaliah J Blanco   0:06
+Okay, so for video two, I'm going to walk through the Python code I developed for my Ulta Beauty financial analysis. So my project has three main Python files, which would be the project one Ulta Beauty PY, which builds my financial forecast and valuation. The second is verify project
+PY, which checks my calculations. And then the third one is going to be...
+the change input after lock PY, which tests what happens when I change an assumption.
+So the first one is going to be the Ulta Beauty. So my model just starts with Ulta's FY 2025 financial information from its 10 through K. My assumption includes a 5% annual revenue growth, a 9.1% WAC, 2.5% terminal growth, and
+Four 100 and thirty-five million in annual capital expenditures.
+So, this function builds five years of projected financial statement from F.
+Y 2026 through FY 2030. It calculates revenue, expenses, net income, inventory, and cash flows. It also checks that the balance sheet balances and that cash reconciles correctly.
+So this function calculates Ulta's estimated stock value using discounted cash flow. It takes the projected free cash flows, discounts them using WAC, and adds a terminal value. Then it adds cash, subtracts debt, and then divides by diluted shares to calculate the value per share.
+So now I'm going to run it.
+So my model produces 3 estimated valuations, $286.39 for the downside case, $393.71 for the base case, and $463.74 for the upside case. It also saves my financial statements and valuation results in the outputs folder.
+Which, if I go through the code, okay, so now we're going to go to the verify project.
+So this file just checks whether my financial calculations are working correctly. For example, it checks whether my balance, sheets balance and whether increasing WAC decreases the estimated valuation. I also included a known answer example to check my DCF formula and test that detects
+And a test that detects an incorrect cash balance.
+So, if I run it...
+As you can see here, it just says pass, pass, pass. Like there are a few pending, but that's okay. But for the most part, it's just pass.
+So now if I go to the input one, change input, for my change input test, I just lowered annual revenue growth from 5% to 4%. My prediction on October 17th at 1.30 P.m. was that the model would fail, but the valuation would decrease. The model actually did run successfully, so my prediction about it failing
+was incorrect. So, however, though, I estimated the value would decrease from $393.71 to $384.14, which was the financial direction I expected.
+One limitation of my model is that it simplifies working capital, especially by focusing mainly on inventory. Because of this, my results depend on how realistic my financial assumptions are. But overall, this project just demonstrates how I use Python for financial forecasting, DC evaluation, and testing my calculations. Thank you.
+
+Aaliah J Blanco stopped transcription
